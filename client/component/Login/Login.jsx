@@ -15,7 +15,6 @@ const animStyle = ( paramW, paramH, sec ) => (
 	}
 );
 
-
 const ButtonLabel = () => (
 	<div className={style.ButtonContainer}>
 		<FlatButton label="Sing in"
@@ -31,7 +30,7 @@ const ButtonLabel = () => (
 			rippleColor="#FF7043"
 		/>
 	</div>
-)
+);
 
 const InputLabel = () => (
 	<div className={style.InputContainer}>
@@ -53,9 +52,6 @@ const PaperComponent = () => (
 		<InputLabel />
 	</Paper>
 );
-
-
-
 
 export default class StrartPage extends Component {
 	constructor(props) {

@@ -1,8 +1,6 @@
 .AnimationComponent {
     height: 200px;
     width: 200px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
     border-radius: 200px;
     margin: 0 auto;
     background-color: red;
