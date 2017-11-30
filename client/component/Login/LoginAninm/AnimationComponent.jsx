@@ -2,13 +2,13 @@ import React from 'react';
 import style from './AnimationComponent.css';
 
 const Animation = (props) => (
-    <div class={style.main}>
-        <div class={style.anim}></div>
-        <div class={style.anim2}></div>
-        <div class={style.anim3}></div>
-        <div class={style.anim4}></div>
-        <div class={style.anim5}></div>
-        <div class={style.anim6}></div>
+    <div className={style.main}>
+        <div className={style.anim}></div>
+        <div className={style.anim2}></div>
+        <div className={style.anim3}></div>
+        <div className={style.anim4}></div>
+        <div className={style.anim5}></div>
+        <div className={style.anim6}></div>
     </div>
 );
 
