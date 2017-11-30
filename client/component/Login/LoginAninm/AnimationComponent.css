@@ -1,8 +1,112 @@
-.AnimationComponent {
+.main {
+    position: relative;
+    margin: 0 auto;
+    bottom: 500px;
+}
+
+.anim{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    top: 30px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #76FF03;
+}
+
+.anim2{
+    position: relative;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    right: 150px;
+    border-radius: 300px;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #76FF03;
+}
+
+.anim3{
+    position: relative;
+    bottom: 400px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #76FF03;
+}
+
+.anim4{
+    position: relative;
+    bottom: 250px;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #76FF03;
+}
+.anim5{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: 0 auto;
+    bottom: 550px;
+    left: 150px;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 9s;
+    animation-timing-function: ease-out;
+    animation-delay: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background-color: #76FF03;
+}
+.anim6{
+    position: relative;
     height: 200px;
     width: 200px;
     border-radius: 200px;
     margin: 0 auto;
+    bottom: 900px;
+    left: 110px;
     background-color: red;
     animation-name: stretch;
     animation-duration: 3s;
